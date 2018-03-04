@@ -38,7 +38,6 @@ gulp.task('html', () =>
     .src('src/*.{njk,html}')
     .pipe(
       data(file => {
-        console.log(JSON.parse(fs.readFileSync('./src/data.json')));
         return JSON.parse(fs.readFileSync('./src/data.json'));
       })
     )
@@ -72,7 +71,7 @@ gulp.task('development', ['html', 'styles', 'images', 'scripts'], () => {
     },
   });
 
-  gulp.watch('src/**/*.{njk,html}', ['html']).on('change', browserSync.reload);
+  gulp.watch('src/**/*.{njk,html,json}', ['html']).on('change', browserSync.reload);
   gulp.watch('src/**/*.scss', ['styles']);
   gulp.watch('src/**/*.js', ['scripts']);
 });

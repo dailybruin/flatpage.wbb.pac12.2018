@@ -1,12 +1,18 @@
 {
+  "flatpage_feature_head": "we didn’t win the champs",
+  "flatpage_blurb": "short little description about the page",
+  "human_gallery_headline": "cool featurehad for human gallery",
+  "human_gallery_desc": "short little blurb about the gallery",
+  "game_gallery_headline": "cool featurehead for game gallery",
+  "game_gallery_desc": "short little blurb about the gallery",
   "human_gallery": [
     {
-      "img": "filename of image",
+      "img": "1.jpg",
       "photographer": "photographer name and position go here",
       "caption": "put caption here"
     },
     {
-      "img": "filename of image",
+      "img": "2.jpg",
       "photographer": "photographer name and position go here",
       "caption": "put caption here"
     }
@@ -25,21 +31,27 @@
   ],
   "articles": [
     {
-      "headline": "headline_goes_here",
+      "tag": "NOTEBOOK",
+      "headline": "headline goes here",
       "byline": "byline_goes_here",
-      "lead_photo": "filename of leadphoto goes here",
+      "explainer_text": "a short little blurb of what the article is about",
+      "lead_photo": "2.jpg",
       "photographer": "photographer name and position go here"
     },
     {
-      "headline": "headline_goes_here",
+      "tag": "is this a wrap? Or a notebook? Or a feature?",
+      "headline": "headline goes here",
       "byline": "byline_goes_here",
-      "lead_photo": "filename of leadphoto goes here",
+      "explainer_text": "a short little blurb of what the article is about",
+      "lead_photo": "2.jpg",
       "photographer": "photographer name and position go here"
     },
     {
-      "headline": "headline_goes_here",
+      "tag": "is this a wrap? Or a notebook? Or a feature?",
+      "headline": "headline goes here",
       "byline": "byline_goes_here",
-      "lead_photo": "filename of leadphoto goes here",
+      "explainer_text": "a short littleee blurb of what the article is about",
+      "lead_photo": "2.jpg",
       "photographer": "photographer name and position go here"
     }
   ]

@@ -1,10 +1,49 @@
 <div id="fullpage">
-    <div class="section" id="title-page">
-        {% for photo in human_gallery %}
-            {{ photo.img }}
-        {% endfor %}
+    <div class="section" id="title-page" data-anchor="landing">
+        <h1>{{ flatpage_feature_head }}</h1>
+        <p>{{ flatpage_blurb }}</p>
     </div>
-    <div class="section" id="humanizing-gallery"></div>
-    <div class="section" id="game-gallery"></div>
-    <div class="section" id="articles"></div>
+    <div class="section" id="humanizing-gallery" data-anchor="gallery-human">
+        <div id="caption-human" class="caption">   
+            hello good captions here
+        </div>
+        <div class="slide" style="background-color: red;" data-caption="">
+            <h1>{{human_gallery_headline}}</h1>
+            <p>{{human_gallery_desc}}</p>
+            <p>Click or tap the arrows to view the gallery.</p>
+        </div>
+        {% for photo in human_gallery %}
+            <div class="slide" style="background-color: red;">
+                <div class="slider-img-container">
+                    <img class="slider-img" src="img/{{ photo.img }}">
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    <div class="section" id="game-gallery" data-anchor="gallery-game"></div>
+    <div class="section fp-auto-height" id="articles" data-anchor="article-page">
+        <div class="articles-container">
+            {% for article in articles %}
+                <div class="card-container">
+                    <div class="card-image">
+                        <img src="img/{{article.lead_photo}}">
+                    </div>
+                    <div class="card-data">
+                        <div class="card-tag">
+                            {{article.tag | upper}}
+                        </div>
+                        <div class="card-headline">
+                            {{article.headline}}
+                        </div>
+                        <div class="card-byline">
+                            By {{article.byline}}
+                        </div>
+                        <div class="card-explainer">
+                            {{article.explainer_text}}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>
