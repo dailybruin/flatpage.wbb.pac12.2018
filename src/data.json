@@ -1,0 +1,46 @@
+{
+  "human_gallery": [
+    {
+      "img": "filename of image",
+      "photographer": "photographer name and position go here",
+      "caption": "put caption here"
+    },
+    {
+      "img": "filename of image",
+      "photographer": "photographer name and position go here",
+      "caption": "put caption here"
+    }
+  ],
+  "game_gallery": [
+    {
+      "img": "filename of image",
+      "photographer": "photographer name and postiion go here",
+      "caption": "put caption here"
+    },
+    {
+      "img": "filename of image",
+      "photographer": "photographer name and position go here",
+      "caption": "put caption here"
+    }
+  ],
+  "articles": [
+    {
+      "headline": "headline_goes_here",
+      "byline": "byline_goes_here",
+      "lead_photo": "filename of leadphoto goes here",
+      "photographer": "photographer name and position go here"
+    },
+    {
+      "headline": "headline_goes_here",
+      "byline": "byline_goes_here",
+      "lead_photo": "filename of leadphoto goes here",
+      "photographer": "photographer name and position go here"
+    },
+    {
+      "headline": "headline_goes_here",
+      "byline": "byline_goes_here",
+      "lead_photo": "filename of leadphoto goes here",
+      "photographer": "photographer name and position go here"
+    }
+  ]
+}
