@@ -7,13 +7,22 @@ $(document).ready(function() {
 
         onSlideLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex){
             console.log(anchorLink);
-            console.log(index)
-            if(anchorLink == 'gallery-human') {
+            console.log(index);
+            let prefix = '';
+            let containerName = '';
 
+            if(anchorLink == 'gallery-human') {
+                prefix = 'gh-';
+                containerName = 'caption-human';
             }
             else if (anchorLink == 'gallery-game') {
-
+                prefix = 'gg-';
+                containerName = 'caption-game';
             }
+            let slide = document.getElementById(prefix + nextSlideIndex);
+            let caption = slide.getAttribute('data-caption');
+            let captionContainer = document.getElementById(containerName);
+            captionContainer.innerHTML = caption;
             // var leavingSlide = $(this);
     
             // //leaving the first slide of the 2nd Section to the right

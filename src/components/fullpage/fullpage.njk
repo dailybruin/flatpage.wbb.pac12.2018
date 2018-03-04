@@ -7,20 +7,22 @@
         <div id="caption-human" class="caption">   
             hello good captions here
         </div>
-        <div class="slide" style="background-color: red;" data-caption="">
+        <div class="slide" style="background-color: red;" data-caption="" id="gh-0">
             <h1>{{human_gallery_headline}}</h1>
             <p>{{human_gallery_desc}}</p>
             <p>Click or tap the arrows to view the gallery.</p>
         </div>
         {% for photo in human_gallery %}
-            <div class="slide" style="background-color: red;">
+            <div class="slide" style="background-color: red;" id="gh-{{loop.index}}" data-caption="{{photo.caption}} Photo taken by {{photo.photographer}}.">
                 <div class="slider-img-container">
                     <img class="slider-img" src="img/{{ photo.img }}">
                 </div>
             </div>
         {% endfor %}
         </div>
-    <div class="section" id="game-gallery" data-anchor="gallery-game"></div>
+    <div class="section" id="game-gallery" data-anchor="gallery-game">
+    
+    </div>
     <div class="section fp-auto-height" id="articles" data-anchor="article-page">
         <div class="articles-container">
             {% for article in articles %}
