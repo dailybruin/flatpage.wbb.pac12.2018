@@ -1,58 +1,236 @@
 {
-  "flatpage_feature_head": "we didn’t win the champs",
-  "flatpage_blurb": "short little description about the page",
-  "human_gallery_headline": "cool featurehad for human gallery",
-  "human_gallery_desc": "short little blurb about the gallery",
-  "game_gallery_headline": "cool featurehead for game gallery",
-  "game_gallery_desc": "short little blurb about the gallery",
+  "flatpage_feature_head": "Bruins in Seattle",
+  "flatpage_blurb": "The UCLA Women’s Basketball team spent the weekend at the 2018 Pac-12 Tournament in Seattle, Washington.",
+  "human_gallery_headline": "Full Court Access",
+  "human_gallery_desc": "Smoke-filled lineup calls and support from the bench is on display for the arena and fans to see during each game. But, little is known of what goes into those final moments leading up the players’ appearance on the wooden floor. Daily Bruin Photo spent a day photographing the critical shots off the court.",
+  "game_gallery_headline": "Gametime",
+  "game_gallery_desc": "Though the Bruins narrowly defeated the Golden Bears in the quarterfinals, poor ball movement in the last five minutes of the matchup against the Oregon Ducks took the team out of the tournament.",
   "human_gallery": [
     {
-      "img": "1.jpg",
-      "photographer": "photographer name and position go here",
-      "caption": "put caption and some more caption is lit here"
+      "img": "PicB",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "UCLA women’s basketball studies film before facing Cal in the 2018 Pac-12 Women’s Basketball Tournament. The team returned to the Westin hotel after its morning shootaround to review play walkthroughs before the film session."
     },
     {
-      "img": "2.jpg",
-      "photographer": "photographer name and position go here",
-      "caption": "put caption here"
+      "img": "PicD",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "The Bruins eat their pregame meals four hours before tipoff every game. They gather in line for breakfast at the hotel after morning shootaround."
+    },
+    {
+      "img": "PicE",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "The four freshmen, Chantel Horvat, Lauryn Miller, Michaela Onyenwere and Kayla Owens keep assistant coach Jenny Huth’s son, Tanner, entertained after pregame breakfast."
+    },
+    {
+      "img": "PicF",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Onyenwere picks up her warmup jersey and vitamin C gummies from senior student manager Kelsey Ueda before heading up to her room for some down time before her first career Pac-12 tournament game."
+    },
+    {
+      "img": "PicG",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Senior Jordin Canada is scheduled first to receive pregame treatment, cupping therapy that helps with muscle inflammation and pain."
+    },
+    {
+      "img": "PicI",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Miller enjoys an episode of “Jersey Shore” while waiting her turn for treatment."
+    },
+    {
+      "img": "PicJ",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Miller gathers her hair back into a ponytail. Like with every away trip, the women were randomly paired across rooms at the Westin hotel. It was chance that Miller was assigned Canada – someone she had looked up to as a mentor throughout the season."
+    },
+    {
+      "img": "PicK",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "After receiving treatment, Canada watches additional game film on her laptop in her room while music blasts from Beats speakers on her dresser. The Pac-12 Networks channel quietly plays the first game of the quarterfinals – Oregon vs. Colorado – in the background."
+    },
+    {
+      "img": "PicL",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Like some of their other teammates, junior guard Kennedy Burke and junior redshirt guard Chrissy Baird watch Oregon blowout Colorado in the quarterfinals before heading to KeyArena."
+    },
+    {
+      "img": "PicM",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Senior guard Kelli Hayes throws up deuces to pose for the cameras lining up outside the band and cheer send-off outside the hotel. Select members of the band and cheer team traveled with the players to support them during the tournament."
+    },
+    {
+      "img": "PicN",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Miller and junior transfer guard Japreece Dean watch demonstrators protesting the building of a new youth jail on the bus ride to the game."
+    },
+    {
+      "img": "PicO",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Onyenwere helps Owens with her hair while they’re riding on the team bus."
+    },
+    {
+      "img": "PicP",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Junior redshirt forward Lajahna Drummer follows freshman redshirt guard Lindsey Corsaro into the arena. The players always arrive 65 minutes before gametime for shootaround on the court."
+    },
+    {
+      "img": "PicQ",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "The team laces up while watching the final minutes of the Oregon vs. Colorado game in the locker room."
+    },
+    {
+      "img": "PicR",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "The team uses vibrating foam rollers that massage tissues worn out due to injury. After that, the last stage of their stretching routine is doing ankle stretches on the wall."
+    },
+    {
+      "img": "PicS",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "The team uses vibrating foam rollers that massage tissues worn out due to injury. Following that, the last stage of their stretching routine entails ankle stretches on the wall."
+    },
+    {
+      "img": "PicT",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Redshirt freshman guard Lindsey Corsaro and sophomore forward Ally Rosenblum exit the locker room to begin pregame shootarounds on the court."
+    },
+    {
+      "img": "PicU",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Billings and her teammates hit the floor for warmups before their quarterfinals matchup with Cal."
+    },
+    {
+      "img": "PicV",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Canada, one of the team’s three elected captains, initiates the team huddle minutes before tipoff."
     }
   ],
   "game_gallery": [
     {
-      "img": "filename of image",
-      "photographer": "photographer name and postiion go here",
-      "caption": "put caption here"
+      "img": "Pic19",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Sophomore guard Kennedy Burke stares at the scoreboard as Oregon fans celebrate the Ducks’ semifinal win."
     },
     {
-      "img": "filename of image",
-      "photographer": "photographer name and position go here",
-      "caption": "put caption here"
+      "img": "Pic6",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Freshman forward Michaela Onyenwere splits two Bears defenders as she drives through the lane."
+    },
+    {
+      "img": "Pic1",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Burke performs her pregame ritual with junior guard Japreece Dean during the starting line-up call."
+    },
+    {
+      "img": "Pic2",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Senior guard Jordin Canada enters KeyArena minutes before playing in the final Pac-12 tournament of her collegiate career."
+    },
+    {
+      "img": "Pic13",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Senior guard Kelli Hayes puts up a jumper from the corner but would finish the night scoreless after previously logging a career-high 18 points in the win against the Bears."
+    },
+    {
+      "img": "Pic3",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Junior redshirt forward Lajahna Drummer, who had a team-high 11 rebounds, gets a hand on the ball as Cal’s Kristine Anigwe attacks the basket."
+    },
+    {
+      "img": "Pic15",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Canada attempts an acrobatic layup to the basket before getting fouled by Oregon’s Mallory McGwire."
+    },
+    {
+      "img": "Pic10",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "After coach Cori Close’s pre-game pep talk, UCLA gathers for a team huddle before exiting the locker room for its game against Oregon in the semifinals of the Pac-12 tournament."
+    },
+    {
+      "img": "Pic7",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Burke wrestles a loose ball away from Anigwe before the Cal forward fouled out of the game with about three minutes left in the final frame."
+    },
+    {
+      "img": "Pic17",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Senior forward Monique Billings collides with Oregon’s Satou Sabally on the way up to grab rebound to draw a foul."
+    },
+    {
+      "img": "Pic8",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Redshirt junior guard Chrissy Baird and the Bruins cheer on their teammates from the sidelines."
+    },
+    {
+      "img": "Pic9",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Billings splits three defenders on a drive to the basket."
+    },
+    {
+      "img": "Pic11",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Burke fires up her team in the pregame hype circle by showing off some dance moves, something her teammates often enjoy enough to take videos of off the court."
+    },
+    {
+      "img": "Pic12",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Billings is all smiles in the tunnel minutes before rematching against Oregon for a third time this season."
+    },
+    {
+      "img": "Pic4",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Senior guard Kelli Hayes puts up a jumper from the corner but would finish the night scoreless after previously logging a career-high 18 points in the win against the Bears."
+    },
+    {
+      "img": "Pic14",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Oregon guards Sabrina Ionescu and Lexi Bando fight for a defensive rebound left by a missed 3-pointer from Billings."
+    },
+    {
+      "img": "Pic5",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Close discusses the game plan with her team during a timeout."
+    },
+    {
+      "img": "Pic16",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Drummer dribbles her way out of traffic."
+    },
+    {
+      "img": "Pic18",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Josie Bruin and the Oregon Duck entertain the crowd by recreating a famous Titanic scene."
+    },
+    {
+      "img": "Pic20",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "caption": "Baird embraces Canada following the loss."
     }
   ],
   "articles": [
     {
-      "tag": "NOTEBOOK",
-      "headline": "headline goes here",
-      "byline": "byline_goes_here",
-      "explainer_text": "a short little blurb of what the article is about",
-      "lead_photo": "2.jpg",
-      "photographer": "photographer name and position go here"
+      "tag": "wrap",
+      "headline": "UCLA defeats Cal, to face Oregon in Pac-12 Tournament semifinals",
+      "byline": "By Joy Hong, Daily Bruin contributor",
+      "explainer_text": "The Bruins knocked down the Bears for a third time this season in a nail-biter that came down to the final seconds, but UCLA came out on top as senior guard Kelli Hayes scored a career-high 18 points, going 5-of-7 from behind the arc.",
+      "lead_photo": "web.sp.wbb.wrap.3.2.KH",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "link": "https://dailybruin.com/2018/03/02/ucla-defeats-cal-to-face-oregon-in-pac-12-tournament-semifinals/"
     },
     {
-      "tag": "is this a wrap? Or a notebook? Or a feature?",
-      "headline": "headline goes here",
-      "byline": "byline_goes_here",
-      "explainer_text": "a short little blurb of what the article is about",
-      "lead_photo": "2.jpg",
-      "photographer": "photographer name and position go here"
+      "tag": "wrap",
+      "headline": "UCLA women’s basketball loses to Oregon 65-62 in Pac-12 semifinal",
+      "byline": "By Joy Hong, Daily Bruin contributor",
+      "explainer_text": "UCLA came up short as it was never able to close out the game in each of its three meetings this season. However, a semifinal exit at the Pac-12 Tournament left the Bruins with extra motivation for March Madness.",
+      "lead_photo": "web.sp.wbb.wrap.3.3.KH",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "link": "https://dailybruin.com/2018/03/03/ucla-womens-basketball-loses-to-oregon-65-62-in-pac-12-semifinal/"
     },
     {
-      "tag": "is this a wrap? Or a notebook? Or a feature?",
-      "headline": "headline goes here",
-      "byline": "byline_goes_here",
-      "explainer_text": "a short littleee blurb of what the article is about",
-      "lead_photo": "2.jpg",
-      "photographer": "photographer name and position go here"
+      "tag": "notebook",
+      "headline": "Women's basketball seniors leave lasting imprint on program, look to NCAAs",
+      "byline": "By Joy Hong, Daily Bruin contributor",
+      "explainer_text": "Despite returning home without the conference tournament championship, coach Cori Close is satisfied with how her program has grown the sport of women’s basketball.",
+      "lead_photo": "web.sp.wbb.nbk.3.4.KH",
+      "photographer": "Kristie-Valerie Hoang/Assistant Photo editor",
+      "link": "http://dailybruin.com/2018/03/04/womens-basketball-seniors-leave-lasting-imprint-on-program-look-to-ncaas/"
     }
   ]
 }

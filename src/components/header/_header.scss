@@ -1,6 +1,11 @@
 header {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 1rem;
+    right: 1rem;
     z-index: 999;
+    text-align: right;
+}
+
+header img {
+    max-height: 50px;
 }

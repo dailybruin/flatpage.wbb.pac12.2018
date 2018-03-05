@@ -1,34 +1,47 @@
 <div id="fullpage">
-    <div class="section" id="title-page" data-anchor="landing">
+    <div class="section landing" id="title-page" style="background-image:url('img/cover.jpg');" data-anchor="landing">
         <h1>{{ flatpage_feature_head }}</h1>
         <p>{{ flatpage_blurb }}</p>
     </div>
     <div class="section" id="humanizing-gallery" data-anchor="gallery-human">
         <div id="caption-human" class="caption">   
-            hello good captions here
         </div>
-        <div class="slide" style="background-color: red;" data-caption="" id="gh-0">
+        <div class="slide title" data-caption="" id="gh-0">
             <h1>{{human_gallery_headline}}</h1>
             <p>{{human_gallery_desc}}</p>
-            <p>Click or tap the arrows to view the gallery.</p>
+            <p>Click the arrows or swipe left to view the gallery.</p>
         </div>
         {% for photo in human_gallery %}
-            <div class="slide" style="background-color: red;" id="gh-{{loop.index}}" data-caption="{{photo.caption}} Photo taken by {{photo.photographer}}.">
+            <div class="slide" id="gh-{{loop.index}}" data-caption="{{photo.caption}} Photo taken by {{photo.photographer}}.">
                 <div class="slider-img-container">
-                    <img class="slider-img" src="img/{{ photo.img }}">
+                    <img class="slider-img" src="img/{{ photo.img }}.jpg">
                 </div>
             </div>
         {% endfor %}
-        </div>
+    </div>
     <div class="section" id="game-gallery" data-anchor="gallery-game">
-    
+        <div id="caption-game" class="caption">   
+        </div>
+        <div class="slide title" data-caption="" id="gg-0">
+            <h1>{{game_gallery_headline}}</h1>
+            <p>{{game_gallery_desc}}</p>
+            <p>Click the arrows or swipe left to view the gallery.</p>
+        </div>
+        {% for photo in game_gallery %}
+            <div class="slide" id="gg-{{loop.index}}" data-caption="{{photo.caption}}<br>Photo taken by {{photo.photographer}}.">
+                <div class="slider-img-container">
+                    <img class="slider-img" src="img/{{ photo.img }}.jpg">
+                </div>
+            </div>
+        {% endfor %}
     </div>
     <div class="section fp-auto-height" id="articles" data-anchor="article-page">
         <div class="articles-container">
             {% for article in articles %}
                 <div class="card-container">
+                    <a href="{{article.link}}" target="_blank">
                     <div class="card-image">
-                        <img src="img/{{article.lead_photo}}">
+                        <img src="img/{{article.lead_photo}}.jpg">
                     </div>
                     <div class="card-data">
                         <div class="card-tag">
@@ -38,14 +51,16 @@
                             {{article.headline}}
                         </div>
                         <div class="card-byline">
-                            By {{article.byline}}
+                            {{article.byline}}
                         </div>
                         <div class="card-explainer">
                             {{article.explainer_text}}
                         </div>
                     </div>
+                </a>
                 </div>
             {% endfor %}
         </div>
+        <div id="foot">Copyright © The Daily Bruin 2018. Page developed by Michael Zhang.</div>
     </div>
 </div>
